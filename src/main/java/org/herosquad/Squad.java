@@ -1,7 +1,5 @@
 package org.herosquad;
 
-import org.herosquad.Hero;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,5 +48,12 @@ public class Squad {
 
     public void setHeroes(List<Hero> heroes) {
         this.heroes = heroes;
+    }
+    public void addHero(Hero hero) {
+        // Add hero to the squad if the max size is not reached
+        // You can implement additional logic here if needed
+        if (heroes.size() < maxSize) {
+            heroes.add(hero);
+        }
     }
 }
