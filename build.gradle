@@ -11,6 +11,15 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.sql2o.extensions:sql2o-postgres:1.6.0'
+    implementation 'org.sql2o.extensions:sql2o-postgres:1.6.0'
+    implementation 'org.sql2o.extensions:sql2o-postgres:1.6.0'
+    implementation 'org.sql2o.extensions:sql2o-postgres:1.6.0'
+    implementation 'org.sql2o.extensions:sql2o-postgres:1.6.0'
+    implementation 'org.sql2o.extensions:sql2o-postgres:1.6.0'
+    implementation 'org.sql2o.extensions:sql2o-postgres:1.6.0'
+    implementation 'org.sql2o.extensions:sql2o-postgres:1.6.0'
+    implementation 'org.sql2o.extensions:sql2o-postgres:1.6.0'
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation 'org.apache.spark:spark-core_2.12:3.0.0'

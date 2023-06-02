@@ -9,6 +9,7 @@ public class Squad {
     private String cause;
     private List<Hero> heroes;
 
+
     public Squad(int maxSize, String name, String cause) {
         this.maxSize = maxSize;
         this.name = name;
@@ -19,14 +20,17 @@ public class Squad {
     // Getters and setters
 
     public int getMaxSize() {
+
         return maxSize;
     }
 
     public void setMaxSize(int maxSize) {
+
         this.maxSize = maxSize;
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -50,9 +54,7 @@ public class Squad {
         this.heroes = heroes;
     }
     public void addHero(Hero hero) {
-        // Add hero to the squad if the max size is not reached
-        // You can implement additional logic here if needed
-        if (heroes.size() < maxSize) {
+                if (heroes.size() < maxSize) {
             heroes.add(hero);
         }
     }
